@@ -6,8 +6,8 @@ export const CommunityContainer = styled.section`
 	max-width: 1278px;
 	border: 1px solid rgba(132, 154, 170, 0.52);
 	border-radius: 8px;
-	margin-top: 14.4rem;
-	background: rgba(42, 43, 49, 0.41);
+	margin: 10rem 2rem 0px 2rem;
+	background-color: rgba(42, 43, 49, 0.41);
 	background: url(${pattern}) no-repeat center;
 
 	.title {

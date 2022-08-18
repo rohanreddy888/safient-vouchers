@@ -1,15 +1,13 @@
 import styled from 'styled-components';
 
 export const FooterSectionContainer = styled.footer`
-	margin-top: 20rem;
-
 	.footer-content {
 		display: flex;
+		flex-direction: row;
 		align-items: flex-start;
 		justify-content: space-between;
 		flex-wrap: wrap;
-
-		/* margin-bottom: 3rem; */
+		margin-top: 10rem;
 	}
 
 	.footer-heading {
@@ -67,7 +65,10 @@ export const FooterSectionContainer = styled.footer`
 	@media (max-width: 576px) {
 		padding: 2rem;
 		.footer-content {
+			display: flex;
+			flex-direction: column;
 			gap: 2rem;
+			margin-top: 5rem;
 		}
 	}
 `;

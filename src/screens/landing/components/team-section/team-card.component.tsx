@@ -55,7 +55,7 @@ export const TeamCardContainer = styled.div`
 
 	@media (max-width: 576px) {
 		flex-direction: column;
-
+		padding: 0rem;
 		img {
 			object-fit: cover;
 			min-height: 300px;
@@ -78,7 +78,7 @@ export const TeamsCard: React.FC<TeamCardProps> = (props) => {
 		<TeamCardContainer>
 			<img src={profileAvatar} alt='avatar' />
 
-			<div>
+			<div className='team-description'>
 				<SubTitle className='name'>{name}</SubTitle>
 				<Paragraph className='profile'>{designation}</Paragraph>
 

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import { Center, createStyles } from '@mantine/core';
+import { createStyles } from '@mantine/core';
 import { Button } from '../common/button/button.component';
 
 export const useStyles = createStyles((theme) => ({
@@ -21,8 +21,8 @@ export const useStyles = createStyles((theme) => ({
 }));
 
 export const HeroSectionContainer = styled.section`
-	height: 100%;
-	margin-bottom: 50rem;
+	height: 70vh;
+
 
 	img {
 		width: 80%;
@@ -38,7 +38,7 @@ export const HeroSectionContainer = styled.section`
 		align-items: center;
 
 		justify-content: space-between;
-		margin: 14.7rem auto;
+		margin: 10rem auto;
 		gap: 4rem;
 	}
 
