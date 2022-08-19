@@ -60,6 +60,13 @@ export const FooterSectionContainer = styled.footer`
 	}
 
 	@media (max-width: 768px) {
+		padding: 2rem;
+		.footer-content {
+			display: flex;
+			flex-direction: column;
+			gap: 2rem;
+			margin-top: 5rem;
+		}
 	}
 	/* mobile-device */
 	@media (max-width: 576px) {

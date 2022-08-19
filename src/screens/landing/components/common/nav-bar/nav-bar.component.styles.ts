@@ -62,6 +62,7 @@ export const StyledNav = styled.nav`
 		}
 
 		nav {
+			
 			align-items: stretch;
 		}
 

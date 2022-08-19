@@ -21,7 +21,7 @@ export const useStyles = createStyles((theme) => ({
 }));
 
 export const HeroSectionContainer = styled.section`
-	height: 70vh;
+	height: 80vh;
 
 
 	img {
@@ -94,6 +94,11 @@ export const HeroSectionContainer = styled.section`
 		.hero {
 			padding: 4rem;
 			grid-template-columns: 1fr;
+		}
+		.form-group {
+			display: flex;
+			flex-direction: column;
+			gap: 1.8rem;
 		}
 	}
 	/* mobile-device */

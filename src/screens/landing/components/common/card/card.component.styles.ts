@@ -10,4 +10,12 @@ export const CardsContainer = styled.div`
 	.description {
 		margin-top: 0.8rem;
 	}
+	@media (max-width: 768px) {
+		text-align: center;
+		flex: 0;
+	}
+	@media (max-width: 576px) {
+		flex: 0;
+	}
+
 `;
