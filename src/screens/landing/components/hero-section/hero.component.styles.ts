@@ -104,7 +104,7 @@ export const HeroSectionContainer = styled.section`
 	/* mobile-device */
 	@media (max-width: 576px) {
 		margin-bottom: 0rem;
-
+		height: 100vh;
 		.hero {
 			grid-template-columns: 1fr;
 			padding: 2rem;
@@ -132,7 +132,7 @@ export const HeroSectionContainer = styled.section`
 				min-width: 3rem !important;
 			}
 			p {
-				margin-top: 0rem;
+				margin-top: 1rem;
 			}
 		}
 	}

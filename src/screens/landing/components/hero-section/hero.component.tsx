@@ -56,7 +56,6 @@ export function HeroSection() {
                 <WaitListForm email={email} />
               </div>
             </Modal>
-            ;
           </div>
           <p>We are launching soon, hurry up 🚀</p>
         </div>
