@@ -2,7 +2,6 @@
 import { useState } from 'react';
 import MailchimpSubscribe from 'react-mailchimp-subscribe';
 import { Checkbox } from '@mantine/core';
-import { Button } from '../common/button/button.component';
 import { Paragraph, SubTitle } from '../common/title/title.component';
 import {
   StyledInput,

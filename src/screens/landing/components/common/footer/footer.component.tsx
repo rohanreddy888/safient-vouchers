@@ -74,7 +74,7 @@ export function FooterSection() {
           {' '}
           {new Date().getFullYear()}
           {' '}
-          | - Built using Safient Protocol.
+           - Built using Safient Protocol.
           {' '}
         </Paragraph>
       </div>

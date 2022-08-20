@@ -13,7 +13,7 @@ export const StyledNav = styled.nav`
 	}
 
 	.logo {
-		width: 200px;
+		width: 180px;
 	}
 
 	.nav-menu {
@@ -62,19 +62,19 @@ export const StyledNav = styled.nav`
 		}
 
 		nav {
+			
 			align-items: stretch;
 		}
 
 		.nav-menu.active {
 			background-color: #081327;
 			left: 0;
-			padding-left: 4rem;
-			opacity: 1;
+			padding: 2rem 3rem 2rem 3rem;
+			opacity: 0.9;
 			transition: all 0.5s ease;
 			z-index: 1;
 			justify-content: flex-start;
 			margin-top: -10px;
-			margin-top: 2rem;
 		}
 
 		.nav-links {

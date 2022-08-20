@@ -4,7 +4,9 @@ export const TeamSectionContainer = styled.section`
 	.sub-heading {
 		margin-top: 1.6rem;
 	}
-
+	.team-description{
+		padding:0;
+	}
 	.team-members {
 		display: flex;
 		gap: 4rem;
@@ -16,5 +18,8 @@ export const TeamSectionContainer = styled.section`
 
 	@media (max-width: 576px) {
 		padding: 2rem;
+		.team-description{
+			padding: 0rem 2rem 2rem 2rem;
+		}
 	}
 `;

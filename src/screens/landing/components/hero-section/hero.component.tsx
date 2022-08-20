@@ -61,7 +61,7 @@ export function HeroSection() {
           <p>We are launching soon, hurry up 🚀</p>
         </div>
         <div className="hero-image">
-          <img src={HeroImage} />
+          <img src={HeroImage} alt="Person with voucher"/>
         </div>
       </div>
     </HeroSectionContainer>

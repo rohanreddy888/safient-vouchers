@@ -9,6 +9,7 @@ export const StyledTitle = styled.h3`
 	text-align: ${({ centered }: any) => (centered ? 'center' : 'none')};
 	@media (max-width: 576px) {
 		font-size: 2.4rem;
+		margin-top: 4rem;
 	}
 `;
 
